@@ -1,5 +1,45 @@
-#regel {
-	text-align: center;
-	}
+#Top {
+padding-top: 200px;
+}
 
- 
+#Header {
+width: 400px;
+height: 20px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+font-weight:bold;
+border-left:solid;
+border-right:solid;
+border-top:solid;
+background: #98DBDB
+}
+
+#Siden  {
+width: 400px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+border:solid;
+}
+
+#farge1 {
+color: red;
+}
+
+#farge2 {
+color: green;
+}
+
+#farge3 {
+color: yellow;
+}
+
+#farge4 {
+color: blue;
+}
+
+#farge5 {
+color: pink;
+}
+
