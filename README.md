@@ -1,5 +1,6 @@
-IS104 - Marius Redving Olsen
-=====
+IS104 - Marius Redving Olsen //
+
+===== OBS OBS! LAB2 FINNER DU UNDER LAB1
 
 Webapplikasjon for introduksjon av HTML/Java
 
@@ -7,7 +8,13 @@ proglangs.html - Hovedsiden for webapplikasjonen
 stil.css - Stilen til proglag.html
 proglang.js - Javascriptet til proglag.html
 
-Kontrollspørsmål
+LAB2
+proglangs-lab2.html - Hovedside for webapplikasjon
+stil-lab2.css - Stilen til proglangs-lab2.html
+proglangs-lab2.js - Javascriptene til proglangs-lab2.html
+
+
+Kontrollspørsmål LAB1
 
 0) Javascript har flere funksjoner, men i hovedsak brukes den til å skape en dynamisk side.
 Det vil si at Javascript har mulighet til å lagre informasjon, som du ikke ser, uten å begå en handling.
@@ -50,3 +57,16 @@ Som alternativ løsning kan man hatt en søkeboks, der man skrive, også får ma
 systemet som er når du søker på www.google.com. Den vil hele tiden foreslå nye ting så lenge du skriver. Dvs om du
 skriver inn P vil alle alternativene på P vises i en dropdown meny under søkefeltet, og fortsetter du med PR, vil alle
 som begynnre på PR vises. Dette forutsetter selvfølgelig at du vet hva du leter etter.
+
+
+LAB2
+Jeg valgte å lage min egen CSS fil, istedet for å skrive av på siden, men jeg fulgte de samme prinsippene som
+den anbefalte siden. Grunnen til at jeg valgte dette er at jeg skjønner CSS koden, og jeg skjønner elementene, men
+jeg har litt problemer enda med å få ting til å henge sammen korrekt, og derfor ønsket jeg å "prøve og feile" litt
+fremfor å skrive av. Det tar litt lengre tid, men det er veldig lærerikt. Jeg har også laget nye filer, så blir det
+enklere å hente ut de gamle LAB oppgavene mot eksamen.
+
+Jeg prøvde meg også frem å lage et lite script for et søkefelt, dette scriptet har ikke noen funksjon, det var bare
+et ønske om å øve seg. Jeg har også byttet ut ÆØÅ som du nevnte ved LAB1, takk for tipset.
+
+
