@@ -73,6 +73,8 @@ opp en boks når man trykker det. Fordelene med dette er at man ikke går ut ifr
 slipper å gå tilbake. Det kommer også veldig tydelig frem at denne siden ikke er her enda.
 
 
+
+
 Kontrollspørsmål: LAB2
 
 Min tolkning av MVC, Model-View-Controller for oppgaven er hvordan de tre filene er delt inn. I programmering så
