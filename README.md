@@ -67,6 +67,27 @@ fremfor å skrive av. Det tar litt lengre tid, men det er veldig lærerikt. Jeg 
 enklere å hente ut de gamle LAB oppgavene mot eksamen.
 
 Jeg prøvde meg også frem å lage et lite script for et søkefelt, dette scriptet har ikke noen funksjon, det var bare
-et ønske om å øve seg. Jeg har også byttet ut ÆØÅ som du nevnte ved LAB1, takk for tipset.
+et ønske om å øve seg. Jeg har også byttet ut ÆØÅ som du nevnte ved LAB1, takk for tipset. Måten jeg har valgt å gi
+beskjed om at siden er under konstruksjon har jeg gjort ved å legge inn et ALERT script i <a href=, slik at man får
+opp en boks når man trykker det. Fordelene med dette er at man ikke går ut ifra siden man opprinnelig var på, og man
+slipper å gå tilbake. Det kommer også veldig tydelig frem at denne siden ikke er her enda.
 
 
+Kontrollspørsmål:
+Min tolkning av MVC, Model-View-Controller for oppgaven er hvordan de tre filene er delt inn. I programmering så
+har vi en Model, altså filen som holder på dataen, uansett hvilket språk dette skulle være, også har vi
+brukergrensesnittet til programmer (VIEW), det som brukeren ser. Til slutt har vi Controller, som kan flytte og endre
+på data.
+
+I vårt tilfellet vil MODEL bli representert av HTML filen, her har du informasjonen som vises på nettsiden, denne kan
+ikke endres uten hjelp, og kan derfor sies å være konstant.
+VIEW vil være representert av CSS filen, dette er slik vi ser siden, ved hjelp av HTML kan du definere utseende på
+siden.
+For Controller må det bli den gjenstående Javascript filen, denne er her for å supplere HTML filen som er konstant og
+ikke kan endres. Men med JS har vi muligheten til det, og vi kan derfor endre vist innhold, uten å laste inn noe mer.
+
+Etter min forståelse er MVC der for å forenkle arbeidet til programutviklere, dette er ikke noe kunden ser i seg selv,
+men de kan merke det i form av at programmene blir mindre, siden man slipper repetisjoner av koder. Istedet har man
+tre deler som er med på å definere hverandre, hvor Model er den største delen, og View og Controller er et suplemang
+for hvordan man fremstiller Model. Dette har vi allerede lært ved hjelp av CSS og JS at det kan spare deg for mye
+arbeid og samtidig gjøre sluttproduktet mer dynamisk. 
