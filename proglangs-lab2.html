@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+  LAB2
+  Navn: Marius Redving Olsen
+  Tiden jeg har brukt på oppgaven: 2-3 Timer
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="stil-lab2.css" rel="stylesheet" type="text/css">
+	<title>Cascading style sheet, med Java</title> 
+</head>
+<div id="siden">
+		
+<div id="topp">
+	<center><H2>En magisk verden av programmeringsspråk</h2></center>
+</div>	
+
+	
+<div id="midten">
+		<br><br>
+		<label for="sprak">Velg språk fra listen:</label>
+		<select name="select-pl" id="sprak" onChange="Skifttekst(this)">
+
+			<option value="ActionScript">ActionScript</option>
+			<option value="AppleScript">AppleScript</option>
+			<option value="Asp">Asp</option>
+			<option value="BASIC">Basic</option>
+			<option value="C">C</option>
+			<option value="C++">C++</option>
+			<option value="Clojure">Clojure</option>
+			<option value="COBOL">COBOL</option>
+			<option value="ColdFusion">ColdFusion</option>
+			<option value="Erlang">Erlang</option>
+			<option value="Fortran">Fortran</option>
+			<option value="Groovy">Groovy</option>
+			<option value="Haskell">Kasell</option>
+			<option value="Java">Java</option>
+			<option value="JavaScript">Javascript</option>
+			<option value="Lisp">Lisp</option>
+			<option value="Perl">Perl</option>
+			<option value="PHP">PHP</option>
+			<option value="Python">Python</option>
+			<option value="Ruby">Ruby</option>
+			<option value="Scala">Scala</option>
+			<option value="Scheme">Scheme</option>
+		</select>
+		<br>Eller søk:<input type="text" id="sok" />
+<input type="button" onclick="sjekk()" value="Søk" />
+		<br><br>
+		<span id="skriv">Du har ikke valgt et programmeringsspråk, vennligst velg et!</span>
+</div>
+
+	<div class="linker">
+		<div class="meny">
+			<ul class="meny">
+				<li><a href="proglangs-lab2.html">Hjem</a></li><br>
+				<li><a href="javascript:Konstruksjon()">Kronologisk</a></li><br>
+				<li><a href="javascript:Konstruksjon()">Hierarkisk</a></li><br>
+				<li><a href="javascript:Konstruksjon()">Alfabetisk</a></li>
+			</ul>
+		</div>
+	</div>		
+
+		<div id="bunn">
+			<center>(C) Marius Redving Olsen</center>
+		</div>
+</div>
+	
+		
+	<script src="proglangs-lab2.js">
+	</script>
+	</body>
+</html>
