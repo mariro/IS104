@@ -73,7 +73,8 @@ opp en boks når man trykker det. Fordelene med dette er at man ikke går ut ifr
 slipper å gå tilbake. Det kommer også veldig tydelig frem at denne siden ikke er her enda.
 
 
-Kontrollspørsmål:
+Kontrollspørsmål: LAB2
+
 Min tolkning av MVC, Model-View-Controller for oppgaven er hvordan de tre filene er delt inn. I programmering så
 har vi en Model, altså filen som holder på dataen, uansett hvilket språk dette skulle være, også har vi
 brukergrensesnittet til programmer (VIEW), det som brukeren ser. Til slutt har vi Controller, som kan flytte og endre
