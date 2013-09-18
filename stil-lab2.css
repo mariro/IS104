@@ -1,0 +1,77 @@
+/* Denne definerer bredden på hele siden, alt befinner seg inne i denne gitte størrelsen */
+#siden 	{
+	width: 650px;
+	background: #1e7c9a;
+	border: solid 2px;
+		}
+/* Her er toppelementet, her finner du overskriften på siden*/
+#topp
+		{
+	float: bottom;
+	background: #1e7c9a;
+	width: 650px;
+	text-color: white;
+	position: relative;
+	border-bottom: solid 2px;
+		}
+
+/* Her er linkene til siden, denne definerer egentlig ikke noe annet enn bakgrunnsfargen */		
+#linker	{
+	background: #1e7c9a;
+	margin: auto;
+	border: solid;
+		}
+		
+
+/* Her begynner menyen. denne har mange element, et for hvordan den skal se ut (Inline-flex).
+Blandt annet ser vi at denne menyen har en block form, og at den skal skifte farge til svart, når man har muspekeren over */	
+.meny ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+	padding: 0;
+    list-style: none;
+		}
+		
+ul li 		{
+    display: inline-flex;
+	width: 100px;
+    position: relative;
+		}
+		
+ul li a 	{
+	width: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 0px 5px 10px;
+    background: #1e7c9a;
+		}
+		
+ul li a:hover {
+	background: black;
+		}
+		
+li:hover ul {
+    display: block;
+	width: 100px;
+		}
+/* Dette er midterst i siden, den som kommer frem som grå, og her vil du finne innholdet i siden. Området for
+denne siden kan du se er veldig lite, men det er ikke nødvendig med mye plass her. Skal man utvide dette, må man også utvide de andre
+elementene siden inneholder. */
+		
+#midten	{
+	float: right;
+	width: 548px;
+	height: 180px;
+	background: grey;
+	text-align: center;
+	border-left: solid 2px;
+		}
+
+/* Dette er bunn delen av siden, denne har vel ikke så stor funskjon, og er der mest for synsskyld	*/	
+#bunn	{
+	background: #1e7c9a;
+	clear: both;
+	width: 650px;
+	border-top: solid 2px;
+		}
+	
