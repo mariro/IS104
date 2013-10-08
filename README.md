@@ -1,14 +1,44 @@
 IS104 - Marius Redving Olsen
 =====
-OBS!!! Du kan finne LAB2 ved å se huke av LAB2 under branches. 
+OBS!!! Du kan finne LAB2 ved å se huke av LAB2 under branches.
 
 Webapplikasjon for introduksjon av HTML/Java
 
 proglangs.html - Hovedsiden for webapplikasjonen
 stil.css - Stilen til proglag.html
 proglang.js - Javascriptet til proglag.html
+lab3 0.html - Lab 3, oppgave 0
+lab3 1 og 2.html - Lab 3, oppgave 1 og 2
+Lab3.css - CSS filen til lab3 0.html og lab3 1 og 2.html
 
-Kontrollspørsmål
+
+
+Kontrollspørsmåål LAB3
+
+0) Fordelen med å bruke JQuery fremfor å lage alt fra bunn av på Javascript, er at man får en kortere kode.
+JQuery kan gjøre det man med Javascript må bruke mange linjer på å ordne, i en. Dette fører til mindre tekst,
+mindre sjanse for feil og en kortere læringskurve. Meningen med JQuery er å forenkle bruken av Javascript.
+
+1)HTML, CSS og Canvas komplimenterer hverandre på forskjellige måter. HTML er kjent for å være innholdsdelen til en
+side, og HTML gjør det enkelt å legge til diverse stiler på tekst. I CSS kan du igjen definere hvordan disse stilene
+skal være, samtidig bruker man CSS til å definere tings om bakgrunn. HTML og CSS sterke sider er derfor å få tekst
+til å se ut som man vil, og samtidig slippe å legge til denne stilen hver gang man skal skrive noe.
+
+Canvas kan også gjøre noe av dette, men det ville krevd mer plass, og hadde også fått noe mindre struktur enn hva mar
+har i CSS. Man kan tenke på Canvas som et tredje lag i en side, der HTML og CSS står for innhold å stil ,kan Canvas
+gjøre siden mer dynamisk. Gode eksempler på dette er f.eks bilder man kan trykke på, vil bli stort, men ikke åpne
+en ny side. Eller man har et ord som trenger nærmere forklaring, da kan man holde musen over, og få opp et vindu der
+man har en forklaring på ordet. Canvas kan derfor lage elementer som er over hjemmesiden, uten at man må laste noe på
+nytt.
+
+2)Canvas representerer det vi kaller Rastegrafikk, eller Bitmap på engelsk. Det vil si at man definerer fargen for hver
+enkelt pixel man har på skjermen. 
+
+
+
+
+
+Kontrollspørsmål LAB1
 
 0) Javascript har flere funksjoner, men i hovedsak brukes den til å skape en dynamisk side.
 Det vil si at Javascript har mulighet til å lagre informasjon, som du ikke ser, uten å begå en handling.
