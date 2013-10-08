@@ -1,5 +1,6 @@
 IS104 - Marius Redving Olsen
 =====
+OBS!!! Du kan finne LAB2 ved å se huke av LAB2 under branches. 
 
 Webapplikasjon for introduksjon av HTML/Java
 
