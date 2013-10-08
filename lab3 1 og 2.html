@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hendelser med jQuery</title>
+	<link rel="stylesheet" href="lab3.css" type="text/css" media="all" />
+	<script src="js/jquery-1.8.1.js"></script>
+	<script src="js/jcanvas.min.js"></script>
+    <script>
+	
+	$(function() {
+		var canvas = $('#my_canvas');
+		var canvasPosition = {
+			x: canvas.offset().left,
+			y: canvas.offset().top
+		};
+		
+		canvas.on('click', function(e) {		
+			var mouse = {
+				x: e.pageX - canvasPosition.x,
+				y: e.pageY - canvasPosition.y
+			}
+		
+
+		
+		console.log(mouse);
+		
+		document.getElementById('ymus').innerHTML = (mouse.x)
+		document.getElementById('xmus').innerHTML = (mouse.y)
+		
+		$("#ymus").addClass("farge1"); 
+		$("#xmus").addClass("farge");
+		
+		canvas.clearCanvas({
+			x: 0, y: 0,
+			width: canvas.width,
+			height: canvas.height
+			})
+			
+		$("canvas").drawText({
+			fillStyle: "#000",
+			strokeStyle: "#000",
+			strokeWidth: 1,
+			x: mouse.x, y: mouse.y,
+			font: "8pt Verdana, sans­serif",
+			text: mouse.x + "," + mouse.y
+
+			});
+		
+			return false;
+		});
+	}); 
+	</script>
+</head>
+<body>
+	<center>
+	<canvas id="my_canvas" width="300" height="200" style="border:1px solid"></canvas>
+	<p> Avstand fra den venstre kanten av Canvas er <b> <span id="ymus"></span></p> </b>
+	<p> Avstand fra den venstre kanten av Canvas er <b> <span id="xmus"></span></p> </b>
+	</center>
+</body>
+</html>
