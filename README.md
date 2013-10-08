@@ -1,6 +1,6 @@
 IS104 - Marius Redving Olsen //
 
-===== OBS OBS! LAB2 FINNER DU UNDER LAB1
+===== OBS OBS! LAB2 SVAR FINNER DU UNDER LAB1
 
 Webapplikasjon for introduksjon av HTML/Java
 
