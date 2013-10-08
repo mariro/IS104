@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hendelser med jQuery</title>
+	<link rel="stylesheet" href="lab3.css" type="text/css" media="all" />
+	<script src="js/jquery-1.8.1.js"></script>
+	
+    <script>
+	$(function() {
+		$(document.body).on('keydown', function(e) {
+		switch (e.which) {
+		
+			case 37:
+			var venstre="Du trykket venste piltast"
+				console.log('Du trykket høyre piltast');
+				document.getElementById('trykk').innerHTML = (venstre);
+				$("#trykk").addClass("farge");
+				break;
+				
+        	case 38:
+			var opp="Du trykket pil opp";
+				console.log ('Du trykket pil opp');
+				document.getElementById('trykk').innerHTML = (opp);
+				$("#trykk").addClass("farge");
+				break;
+				
+			case 39:
+			var hoyre="Du trykket høyre piltast";
+				console.log('Du trykket høyre piltast');
+				document.getElementById('trykk').innerHTML = (hoyre);
+				$("#trykk").addClass("farge");
+				break;
+				
+			case 40:	
+			var ned="Du trykket pil ned";
+				console.log ('Du trykket pil ned');
+				document.getElementById('trykk').innerHTML = (ned);
+				$("#trykk").addClass("farge");
+				break;	
+			
+		}
+		});
+	});
+
+	</script>
+</head>
+<body>
+	<center>
+		<p>Denne siden vil vise hvilken piltast du har trykket</p>
+		<p id=trykk>Først må du trykke en piltast</p>
+	</center>
+</body>
+</html>
