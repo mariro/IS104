@@ -4,13 +4,14 @@ OBS!!! Du kan finne LAB2 ved å se huke av LAB2 under branches.
 
 Webapplikasjon for introduksjon av HTML/Java
 
-proglangs.html - Hovedsiden for webapplikasjonen
-stil.css - Stilen til proglag.html
-proglang.js - Javascriptet til proglag.html
-lab3 0.html - Lab 3, oppgave 0
-lab3 1 og 2.html - Lab 3, oppgave 1 og 2
-Lab3.css - CSS filen til lab3 0.html og lab3 1 og 2.html
-
+proglangs.html - Hovedsiden for webapplikasjonen<br>
+stil.css - Stilen til proglag.html<br>
+proglang.js - Javascriptet til proglag.html<br>
+lab3 0.html - Lab 3, oppgave 0<br>
+lab3 1 og 2.html - Lab 3, oppgave 1 og 2<br>
+Lab3.css - CSS filen til lab3 0.html og lab3 1 og 2.html<br>
+Lab4-html - HTML Lab4<br>
+Lab4.css - Stil til Lab4.html<br>
 
 
 Kontrollspørsmåål LAB3
