@@ -1,0 +1,102 @@
+<head>
+	<title>LAB4 Alfabetisk liste</title>
+	<script src="js/jquery-1.8.1.js"></script>
+	<script src="js/jquery.scrollTo-1.4.7.js"></script>
+	<link href="lab4.css" rel="stylesheet" type="text/css">
+	<script>
+$(function() {
+
+	$(".firstUL li").each(function() {
+		$( this ).click(function() {
+	$(".firstUL li").removeClass("selected");
+		$(this).addClass("selected");
+		elementClick = $( this ).attr("id");
+                                        
+
+	$(".content-container").scrollTo($("#content-for-"+elementClick), 800);
+
+	$(".content-container div").css({'background-color': '#DC143C'});
+	$(".content-container #content-for-"+elementClick ).css({'background-color': '#d2e2fc'});
+
+	$( '.return-to-top' ).click(function() {
+		$( ".firstUL li" ).each(function() {
+		$( ".firstUL li" ).removeClass( "selected" );
+});
+						
+	$( "#a" ).addClass ( "selected" );
+		$( ".content-container" ).scrollTo($( "#content-for-a" ), 800);
+
+$(".content-container div").css({'background-color': '#d2e2fc'});
+$(".content-container #content-for-a").css({'background-color': '#d2e2fc'});
+});
+});
+});
+});
+	</script>
+<body>
+
+<div id="body-container">
+	<div class="glossary-container">
+		<ul class="firstUL">
+		<li id="a" class="selected">A</li>	
+		<li id="b">B</li>
+		<li id="c">C</li>
+		<li id="d">D</li>
+		<li id="e">E</li>
+	</div>
+		
+	<div class="content-container">
+	
+		<div id="content-for-a" style="background-color:#d2e2fc">
+			<dl>
+					<dt>ActionScript</dt>
+						<dd>ActionScript er et programmeringsspråk basert på ECMAScript som blir brukt primært til utvikling av nettsider og programvare for Adobe Flash Player-plattformen, men også i noen databaseapplikasjoner og grunnleggende robotikk.</dd>
+					<br><br><dt>AppleScript2</dt>
+						<dd>Beskrivelse av AppleScript</dd>
+			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>			
+		</div>
+
+		<div id="content-for-b" style="background-color:#d2e2fc">
+			<dl>
+					<dt>B-Script</dt>
+						<dd>Beskrivelse av B-Script</dd><br><br>
+					<dt>B-Script2</dt>
+						<dd>Beskrivelse av B-Script</dd>
+			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>			
+		</div>
+
+		<div id="content-for-c" style="background-color:#d2e2fc">
+			<dl>
+					<dt>C-Script</dt>
+						<dd>Beskrivelse av C-Script</dd><br><br>
+					<dt>C-Script2</dt>
+						<dd>Beskrivelse av C-Script</dd>
+			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>			
+		</div>
+
+		<div id="content-for-d" style="background-color:#d2e2fc">
+			<dl>
+					<dt>D-Script</dt>
+						<dd>Beskrivelse av D-Script</dd><br><br>
+					<dt>D-Script2</dt>
+						<dd>Beskrivelse av D-Script</dd>
+			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>			
+		</div>
+		
+		<div id="content-for-e" style="background-color:#d2e2fc">
+			<dl>
+					<dt>E-Script</dt>
+						<dd>Beskrivelse av E-Script</dd><br><br>
+					<dt>E-Script2</dt>
+						<dd>Beskrivelse av E-Script</dd>
+			</dl>
+			<p class="return-to-top">Tilbake til toppen</p>			
+		</div>
+
+</div>
+<address>Laget 21 Oktober 2012<br>av Marius</address>
+</body>
